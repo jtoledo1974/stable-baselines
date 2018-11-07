@@ -139,7 +139,7 @@ class BaseRLModel(ABC):
 
         :param total_timesteps: (int) The total number of samples to train on
         :param seed: (int) The initial seed for training, if None: keep current seed
-        :param callback: (function (dict, dict)) function called at every steps with state of the algorithm.
+        :param callback: (function (dict, dict)) function called at every step with the state of the algorithm.
             It takes the local and global variables.
         :param log_interval: (int) The number of timesteps before logging.
         :param tb_log_name: (str) the name of the run for tensorboard log
